@@ -1,0 +1,21 @@
+{
+  "name": "cae",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "lint": "eslint src --ext .ts,.tsx,.js,.jsx",
+    "format": "prettier --write src/**/*.{ts,tsx,js,scss}"
+  },
+  "dependencies": {
+    "npm-check-updates": "^11.8.5",
+    "ress": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.9.1",
+    "vite": "^2.5.5",
+    "vite-plugin-handlebars": "^1.6.0"
+  }
+}
