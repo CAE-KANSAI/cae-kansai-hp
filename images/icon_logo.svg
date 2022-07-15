@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="350" height="350" viewBox="0 0 350 350">
+  <defs>
+    <clipPath id="clip-icon_logo">
+      <rect width="350" height="350"/>
+    </clipPath>
+  </defs>
+  <g id="icon_logo" clip-path="url(#clip-icon_logo)">
+    <g id="グループ_2144" data-name="グループ 2144" transform="translate(4 20)">
+      <text id="CAE" transform="translate(24 211)" fill="#fff" font-size="194" font-family="Impact"><tspan x="0" y="0">CAE</tspan></text>
+      <line id="線_175" data-name="線 175" x2="257.851" transform="translate(44.5 241.986)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="21"/>
+    </g>
+  </g>
+</svg>
