@@ -20,8 +20,8 @@
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="ja_JP" />
     <meta name="twitter:card" content="summary_large_image" />
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
-    <link rel="stylesheet" href="/style.scss" />
+    <link rel="icon" type="image/x-icon" href="/static-images/favicon.ico" />
+    <link rel="stylesheet" href="/styles/style.scss" />
     <script>
       (function (d) {
         var config = {
@@ -54,8 +54,8 @@
       })(document);
     </script>
     <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.min.js"></script>
+      <script src="./js/html5shiv.js"></script>
+      <script src="./js/respond.min.js"></script>
     <![endif]-->
   </head>
 
@@ -130,7 +130,7 @@
             <div class="home-full-width-background">
               <img
                 class="logo-icon"
-                src="images/icon_logo.svg"
+                src="/static-images/icon_logo.svg"
                 alt="CAE KANSAI Icon"
               />
             </div>
@@ -266,7 +266,7 @@
 
             <div class="content-wrapper">
               <p>
-                <img src="images/about_image_01.svg" alt="" />
+                <img src="/static-images/about_image_01.svg" alt="" />
               </p>
               <br />
               <h3 class="medium-text">
@@ -309,7 +309,7 @@
         </div>
 
         <!-- Pricing Section -->
-        <div id="pricing" class="section" style="color: #fff">
+        <div id="pricing" class="section">
           <div class="section-wrapper block content-1170 center-relative">
             <div class="page-title-holder">
               <p class="up-title-text">04</p>
@@ -358,13 +358,10 @@
             <div class="page-title-holder">
               <p class="up-title-text">05</p>
               <h2 class="entry-title">案件御見積 / 求人のお問い合わせ</h2>
+              <p>お電話、メール、またはフォームからお問い合わせください</p>
             </div>
 
             <div class="content-wrapper">
-              <div class="one_fourth">
-                <p>お電話</p>
-              </div>
-
               <div class="one_fourth">
                 <div class="info-code">
                   <p class="info-code-title">会社名</p>
@@ -391,16 +388,46 @@
                   <p class="info-code-title">FAX</p>
                   <p class="info-code-content">079-233-4691</p>
                 </div>
+                <div class="info-code">
+                  <p class="info-code-title">MAIL</p>
+                  <p class="info-code-content">t.matsumura@cae-kansai.co.jp</p>
+                </div>
               </div>
-
+              <div class="one_fourth">
+              </div>
               <div class="one_half last">
                 <div class="contact-form">
+                  <p>
+                    <input
+                      id="company-name"
+                      type="text"
+                      name="your-company-name"
+                      placeholder="会社名"
+                    />
+                  </p>
                   <p>
                     <input
                       id="name"
                       type="text"
                       name="your-name"
-                      placeholder="NAME"
+                      placeholder="お名前"
+                      required
+                    />
+                  </p>
+                  <p>
+                    <input
+                      id="department-name"
+                      type="text"
+                      name="your-department-name"
+                      placeholder="部署名"
+                    />
+                  </p>
+                  <p>
+                    <input
+                      id="phone-number"
+                      type="text"
+                      name="your-phone-number"
+                      placeholder="電話番号"
                     />
                   </p>
                   <p>
@@ -408,7 +435,8 @@
                       id="contact-email"
                       type="email"
                       name="your-email"
-                      placeholder="EMAIL"
+                      placeholder="メールアドレス"
+                      required
                     />
                   </p>
                   <p>
@@ -416,18 +444,19 @@
                       id="subject"
                       type="text"
                       name="your-subject"
-                      placeholder="SUBJECT"
+                      placeholder="件名"
                     />
                   </p>
                   <p>
                     <textarea
                       id="message"
                       name="your-message"
-                      placeholder="MESSAGE"
+                      placeholder="お問い合わせ内容"
+                      required
                     ></textarea>
                   </p>
                   <p class="contact-submit-holder">
-                    <input type="submit" value="SEND" />
+                    <input type="submit" value="送信" />
                   </p>
                 </div>
               </div>
@@ -463,13 +492,13 @@
     </div>
 
     <!--Load JavaScript-->
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/imagesloaded.pkgd.js"></script>
-    <script src="js/jquery.fitvids.js"></script>
-    <script src="js/jquery.smartmenus.min.js"></script>
-    <script src="js/isotope.pkgd.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/jquery.sticky.js"></script>
+    <script src="./js/imagesloaded.pkgd.js"></script>
+    <script src="./js/jquery.fitvids.js"></script>
+    <script src="./js/jquery.smartmenus.min.js"></script>
+    <script src="./js/isotope.pkgd.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>

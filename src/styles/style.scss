@@ -26,12 +26,12 @@
 /* ===================================
     1. 3rd Part CSS Libraries
 ====================================== */
-@import url('css/clear.scss');
-@import url('css/font-awesome.min.scss');
-@import url('css/sm-clean.scss');
-@import url('css/owl.carousel.min.scss');
-@import url('css/owl.theme.default.min.scss');
-@import url('css/common.scss');
+@import url('./clear.scss');
+@import url('./font-awesome.min.scss');
+@import url('./sm-clean.scss');
+@import url('./owl.carousel.min.scss');
+@import url('./owl.theme.default.min.scss');
+@import url('./common.scss');
 
 /* ===================================
     2. Global CSS
@@ -338,7 +338,7 @@ a.button:hover {
 }
 
 .text-slider-header-quotes {
-  background-image: url(images/quotes_image.png);
+  background-image: url(../images/quotes_image.png);
   background-repeat: no-repeat;
   width: 50px;
   height: 50px;
@@ -822,7 +822,7 @@ body .sm-clean li.current_page_item > a {
 }
 
 .home-full-width-background {
-  background-image: url(images/main_img_01.svg);
+  background-image: url(../images/main_img_01.svg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -897,7 +897,7 @@ img.logo-icon {
 ====================================== */
 
 #portfolio {
-  background-image: url(images/dots.png);
+  background-image: url(../images/dots.png);
   background-repeat: no-repeat;
   background-position: calc(50% + 430px) 0;
 }
@@ -1075,7 +1075,7 @@ body .site-wrapper .more-posts-portfolio-loading {
 }
 
 .close-icon {
-  background-image: url(images/close-left-arrow.png);
+  background-image: url(../images/close-left-arrow.png);
   background-repeat: no-repeat;
   width: 70px;
   height: 70px;
@@ -1282,7 +1282,7 @@ body .site-wrapper .more-posts-portfolio-loading {
 ====================================== */
 
 #team {
-  background-image: url(images/dots.png);
+  background-image: url(../images/dots.png);
   background-repeat: no-repeat;
   background-position: calc(50% + 430px) 0;
 }
@@ -1537,10 +1537,11 @@ ul.timeline-holder:before {
 ====================================== */
 
 #pricing {
-  background-image: url(images/dots2.png);
+  background-image: url(../images/dots2.png);
   background-repeat: no-repeat;
   background-position: calc(50% + 430px) 0;
   background-color: $dark-gray;
+  color: #fff;
 }
 
 #pricing h2.entry-title,
@@ -1657,9 +1658,9 @@ ul.timeline-holder:before {
 .contact-form input[type='text']::placeholder,
 .contact-form input[type='email']::placeholder,
 .contact-form textarea::placeholder {
-  font-family: $font-bold-mix;
+  font-family: $font-normal;
   color: $primary-color;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 25px;
   opacity: 1;
 }
@@ -1690,7 +1691,7 @@ ul.timeline-holder:before {
 }
 
 .contact-form input[type='submit'] {
-  font-family: $font-bold-mix;
+  font-family: $font-normal;
   font-size: 30px;
   line-height: initial;
   font-weight: 700;
