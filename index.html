@@ -1,410 +1,475 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <title>Meelo - Corporate One Page HTML Template</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="description" content="Template by CocoBasic" />
-        <meta name="keywords" content="HTML, CSS, JavaScript, PHP" />
-        <meta name="author" content="CocoBasic" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1"
+    />
+    <title>CAE関西</title>
+    <meta name="description" content="CAE関西" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, PHP" />
+    <meta name="author" content="CAE関西" />
+    <meta property="og:title" content="CAE関西" />
+    <meta
+      property="og:image"
+      content="https://cae-kansai.com/static/ogimg.png"
+    />
+    <meta property="og:description" content="CAE関西" />
+    <meta property="og:url" content="https://cae-kansai.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link rel="stylesheet" href="/style.scss" />
+    <script>
+      (function (d) {
+        var config = {
+            kitId: 'ttc8zwx',
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, '') + ' wf-inactive';
+          }, config.scriptTimeout),
+          tk = d.createElement('script'),
+          f = false,
+          s = d.getElementsByTagName('script')[0],
+          a;
+        h.className += ' wf-loading';
+        tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != 'complete' && a != 'loaded')) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
-        <link rel="shortcut icon" href="images/favicon.ico" />    
-        <link href='https://fonts.googleapis.com/css?family=Karla:400,400i%7CRoboto:100,300,400,700,900' rel='stylesheet' type='text/css'>		
-        <link rel="stylesheet" type="text/css"  href='style.css' />
+  <body class="page-template-onepage">
+    <div class="site-wrapper">
+      <div class="doc-loader">
+        <div class="lds-ripple">
+          <div></div>
+          <div></div>
+        </div>
+      </div>
 
-        <!--[if lt IE 9]>
-                <script src="js/html5shiv.js"></script>            
-                <script src="js/respond.min.js"></script>                   
-        <![endif]-->         
-    </head>
+      <header class="header-holder">
+        <div class="menu-wrapper center-relative relative">
+          <div class="header-logo">
+            <a href="index.html">
+              <img src="images/logo.png" alt="CAE KANSAI" />
+            </a>
+          </div>
 
-    <body class="page-template-onepage">
-
-        <div class="site-wrapper">   
-
-            <div class="doc-loader">
-                <img src="images/preloader.gif" alt="Loading">
-            </div>       
-
-            <header class="header-holder">             
-                <div class="menu-wrapper center-relative relative">             
-                    <div class="header-logo">
-                        <a href="index.html">
-                            <img src="images/logo.png" alt="Meelo">
-                        </a>               
-                    </div>
-
-                    <div class="toggle-holder">
-                        <div id="toggle">
-                            <div class="first-menu-line"></div>
-                            <div class="second-menu-line"></div>
-                            <div class="third-menu-line"></div>
-                        </div>
-                    </div>
-
-                    <div class="menu-holder">
-                        <nav id="header-main-menu">
-                            <ul class="main-menu sm sm-clean">
-                                <li>
-                                    <a href="#home">Home</a>
-                                </li>
-                                <li>
-                                    <a href="#services">Services</a>
-                                </li>
-                                <li>
-                                    <a href="#portfolio">Portfolio</a>
-                                </li>
-                                <li>
-                                    <a href="#about">About</a>
-                                </li>
-                                <li>
-                                    <a href="#pricing">Recruit</a>
-                                </li>                                
-                                <li>
-                                    <a href="#contact">Contact</a>
-                                </li>
-                            </ul>
-                        </nav>                       
-                    </div>
-                    <div class="clear"></div>   
-                </div>
-            </header>                  
-
-            <div id="content" class="site-content center-relative">        
-
-                <!-- Home Section -->
-                <div id="home" class="section no-page-title">                                 
-                    <div class="section-wrapper block content-1170 center-relative">                        
-                        <div class="content-wrapper">
-                            <h1 class="entry-title big-title">
-                                有限会社シーエーイー関西
-                            </h1>
-                            <p class="site-description">
-                                ファクトリーオートメーションに最適なシステムの設計、開発
-                            </p>
-                            <br>
-                        </div>                        
-                    </div>
-                    <div class="home-full-width">
-                        <img class="dots" src="images/dots.png" alt="Dots" />
-                        <a href="#contact" class="button home-button">CONTACT US</a>                                                    
-                        <div class="home-full-width-background">
-                            <img class="logo-icon" src="images/icon_logo.png" alt="Meelo Icon" />                                                     
-                        </div>                        
-                    </div>
-                </div> 
-
-                <!-- Services Section -->
-                <div id="services" class="section">                                 
-                    <div class="section-wrapper block content-1170 center-relative">                        
-
-                        <div class="page-title-holder">
-                            <p class="up-title-text">01</p>
-                            <h2 class="entry-title">事業内容</h2>
-                        </div>
-
-                        <div class="content-wrapper">
-
-                            <div class="one_third">
-                                <div class="service-holder bottom-50">
-                                    <p class="service-num">I</p>
-                                    <div class="service-txt">
-                                        <h4>PLC、モーションソフトの設計</h4>
-                                        <p>対応メーカ―：三菱,キーエンス,オムロン、ロックウェル　etc.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="one_third">
-                                <div class="service-holder bottom-50">
-                                    <p class="service-num">II</p>
-                                    <div class="service-txt">
-                                        <h4>タッチパネルの画面設計</h4>
-                                        <p>対応メーカ―：三菱,キーエンス,オムロン、ロックウェル　etc.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="one_third last">
-                                <div class="service-holder bottom-50">
-                                    <p class="service-num">III</p>
-                                    <div class="service-txt">
-                                        <h4>制御盤、配電盤の設計及び制作</h4>
-                                        <p>設備や装置を動かす為の電気制御機器を収納するものを製作します。</p>
-                                    </div>
-                                </div>
-                            </div>                            
-                            <div class="clear"></div>
-
-                            <div class="one_third">
-                                <div class="service-holder">
-                                    <p class="service-num">IV</p>
-                                    <div class="service-txt">
-                                        <h4>制御盤の改造及び更新工事</h4>
-                                        <p>機能追加や廃番機種から現行機種への更新に伴う、制御盤内の工事をします。</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="one_third">
-                                <div class="service-holder">
-                                    <p class="service-num">V</p>
-                                    <div class="service-txt">
-                                        <h4>装置、設備の配線工事</h4>
-                                        <p>設備のセンサーの取付け、安全機器の設置、モータケーブルの配線工事をします。</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="one_third last">
-                                <div class="service-holder">
-                                    <p class="service-num">VI</p>
-                                    <div class="service-txt">
-                                        <h4>試運転調整</h4>
-                                        <p>国内外問わず現地工場でシステムの立上げをサポートします。</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="clear"></div>
-                        </div>                        
-                    </div>
-                </div> 
-
-                <!-- Portfolio Section -->
-                <div id="portfolio" class="section">                                 
-                    <div class="section-wrapper block content-1170 center-relative">                        
-
-                        <div class="page-title-holder">
-                            <p class="up-title-text">02</p>
-                            <h2 class="entry-title">CAE関西とは</h2>
-                        </div>
-
-                        <div class="content-wrapper">
-
-                            <div class="one_half ">
-                                <h3 class="medium-text">
-                                    シーケンス制御のプロフェッショナル
-                                </h3>
-                            </div>
-
-                            <div class="one_half last">
-                                <p>【顧客の思い、考え、提案、満足を想い】</p>
-                                <p>入念な打合せ、設計開発を行い最適なシステムをご提供しています。</p>
-                                <p>私たちの制御システムは作って終わりではなく、現地工場での試運転調整やオペレーター教育まできめ細やかなサポートを行っています。</p>
-                                <p>制御システムは運用していくと動作や制御に改修が発生してくるので、
-                                    アフターフォローも充実しています。</p>
-                            </div>
-                            <div class="clear"></div>
-                            <br>                          
-                        </div>                        
-                    </div>
-                </div> 
-                <!-- About Section -->
-                <div id="about" class="section">                                 
-                    <div class="section-wrapper block content-1170 center-relative">                        
-
-                        <div class="page-title-holder">
-                            <p class="up-title-text">03</p>
-                            <h2 class="entry-title">会社概要・沿革</h2>
-                        </div>
-
-                        <div class="content-wrapper">
-                            <p>
-                                <img src="images/about_image_01.jpg" alt="" />
-                            </p>
-                            <br>
-                            <h3 class="medium-text">
-                                PLC・産業ロボット・IoTのようなFAシステムの必要性を感じ、FA社会の成長と共に成長してきました。
-                            </h3>
-                            <br>
-
-                            <div class="one_half">
-                                <p class="small-text">
-                                    
-                                </p>
-                                <p>
-                                    「お客様に最高の満足度を提供する」という経営理念の下、<br>豊富な経験と最新システムの導入、向上に取り組んできました。
-                                </p>
-                                <br>
-                                <p>
-                                    少数精鋭だからできるフットワークの軽さと顧客ニーズに合せたきめ細かい対応を実現、着実に実績を積み上げていっています。<br>そして、⼤⼿企業様からにも頼られる存在になっています。
-                                </p>
-                                <br>
-                                <div class="button-holder text-left">
-                                    <a href="#contact" class="button">CONTACT US</a>
-                                </div>
-                            </div>
-
-                            <div class="one_half last">
-                                <ul class="timeline-holder">
-
-                                    <li class="timeline-event">
-                                        <span class="timeline-circle"></span>
-                                        <div class="timeline-event-content">
-                                            10月 会社設立。
-                                        </div>
-                                        <div class="timeline-event-date">2001年</div>
-                                    </li>
-                                    <li class="timeline-event">
-                                        <span class="timeline-circle"></span>
-                                        <div class="timeline-event-content">
-                                            9月 事務所移転。
-                                        </div>
-                                        <div class="timeline-event-date">2009年 </div>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="clear"></div>
-                        </div>                        
-                    </div>
-                </div> 
-
-                <!-- Pricing Section -->
-                <div id="pricing" class="section" style="color: #fff;">                                 
-                    <div class="section-wrapper block content-1170 center-relative">                        
-
-                        <div class="page-title-holder">
-                            <p class="up-title-text">04</p>
-                            <h2 class="entry-title">採用情報</h2>
-                        </div>
-
-                        <div class="content-wrapper">
-                            <p>※現在募集中です！お気軽にお電話、メール下さい！！</p>
-                            <p>経験者の方はスキルアップ、未経験者でも生涯を通じて身に付く技術を学べます</p>
-                            <p>【仕事の内容】</p>
-                            <p>機械設備を動かす為に必要なシーケンス回路、試運転、調整(能力や経験に応じて、業務をお任せします。）</p>
-                            <p>職種：FA装置の設計（PLC・シーケンサ）</p>
-                            <p>内容：シーケンス制御を用いた装置の自動化設計（シーケンスソフト設計、ＴＰ画面設計、現地試運転、調整）</p>
-                            <p>勤務地：本社（姫路市）</p>
-                            <p>雇用形態：正社員</p>
-                            <p>必要な免許：普通運転免許（AT可）</p>
-                            <p>勤務時間：8:30～17：30</p>
-                            <p>給与：基本給200,000円+諸手当(交通費：実費支給（上限有）,残業、住宅手当、家族手当)</p>
-                            <p>賞与：原則年2回（夏、冬）</p>
-                            <p>休日：完全週休二日（当社休日カレンダーによる）　■GW・夏季・年末年始</p>
-                            <p>加入保険等：健康、厚生、雇用、労災、退職金制度あり（勤続3年以上）</p>
-                            <p>～詳細はお問合せください。ご連絡お待ちしております～</p>
-                            <div class="clear"></div>
-                        </div>                        
-                    </div>
-                </div> 
-
-                <!-- Contact Section -->
-                <div id="contact" class="section">                                 
-                    <div class="section-wrapper block content-1170 center-relative">                        
-
-                        <div class="page-title-holder">
-                            <p class="up-title-text">05</p>
-                            <h2 class="entry-title">案件御見積、求人のお問い合わせ</h2>
-                        </div>
-
-                        <div class="content-wrapper">
-
-                            <div class="one_fourth">
-                                <p>
-                                    お電話
-                                </p>
-                            </div>
-
-                            <div class="one_fourth">
-                                <div class="info-code">
-                                    <p class="info-code-title">会社名</p>               
-                                    <p class="info-code-content">
-                                        <span>有限会社シーエーイー関西</span>
-                                    </p>
-                                </div>
-
-                                <div class="info-code">
-                                    <p class="info-code-title">所在地</p>               
-                                    <p class="info-code-content">
-                                        <span>兵庫県姫路市飾磨区上野田4丁目265</span>
-                                    </p>
-                                </div>
-
-                                <div class="info-code">
-                                    <p class="info-code-title">TEL</p>               
-                                    <p class="info-code-content">
-                                        <a href="tel:079-233-4657">079-233-4657</a>
-                                    </p>
-                                </div>
-
-                                <div class="info-code">
-                                    <p class="info-code-title">FAX</p>               
-                                    <p class="info-code-content">079-233-4691</p>
-                                </div>
-                            </div>
-
-                            <div class="one_half last">
-                                <div class="contact-form">
-                                    <p>
-                                        <input id="name" type="text" name="your-name" placeholder="NAME">
-                                    </p>
-                                    <p>
-                                        <input id="contact-email" type="email" name="your-email" placeholder="EMAIL">
-                                    </p>                                    
-                                    <p>
-                                        <input id="subject" type="text" name="your-subject" placeholder="SUBJECT">
-                                    </p>
-                                    <p>
-                                        <textarea id="message" name="your-message" placeholder="MESSAGE"></textarea>
-                                    </p>
-                                    <p class="contact-submit-holder">
-                                        <input type="submit" value="SEND">
-                                    </p>  
-                                </div>
-                            </div>
-                            <div class="clear"></div>
-                        </div>                        
-                    </div>
-                </div> 
+          <div class="toggle-holder">
+            <div id="toggle">
+              <div class="first-menu-line"></div>
+              <div class="second-menu-line"></div>
+              <div class="third-menu-line"></div>
             </div>
+          </div>
 
-            <!-- Footer -->
-            <footer class="footer">
-                <div class="footer-content center-relative">
+          <div class="menu-holder">
+            <nav id="header-main-menu">
+              <ul class="main-menu sm sm-clean">
+                <li>
+                  <a href="#home">Top</a>
+                </li>
+                <li>
+                  <a href="#services">Services</a>
+                </li>
+                <li>
+                  <a href="#portfolio">Concept</a>
+                </li>
+                <li>
+                  <a href="#about">About</a>
+                </li>
+                <li>
+                  <a href="#pricing">Recruit</a>
+                </li>
+                <li>
+                  <a href="#contact">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </header>
 
-                    <div class="footer-logo">
-                        <img src="images/logo.png" alt="Meelo">
-                    </div>        
-
-                    <div class="footer-mail">                                
-                        <a href="mailto:hello@site.com">hello@cocobasic.com</a>               
-                    </div>
-
-                    <div class="footer-phone">            
-                        <a href="tel:123456789">+123.456.789</a>               
-                    </div>
-
-                    <div class="social-holder">
-                        <a href="#">
-                            <span class="fa fa-twitter"></span>
-                        </a>
-                        <a href="#">
-                            <span class="fa fa-facebook"></span>
-                        </a>
-                        <a href="#">
-                            <span class="fa fa-behance"></span>
-                        </a>
-                        <a href="#">
-                            <span class="fa fa-dribbble"></span>
-                        </a> 
-                    </div>
-
-                    <div class="copyright-holder">
-                        © 2019 Meelo HTML Template by <a href="https://cocobasic.com">CocoBasic</a>            
-                    </div>
-                </div>
-            </footer>
+      <div id="content" class="site-content center-relative">
+        <!-- Home Section -->
+        <div id="home" class="section no-page-title">
+          <div class="section-wrapper block content-1170 center-relative">
+            <div class="content-wrapper">
+              <h1 class="entry-title big-title">有限会社シーエーイー関西</h1>
+              <p class="site-description">
+                ファクトリーオートメーションに最適なシステムの設計、開発
+              </p>
+              <br />
+            </div>
+          </div>
+          <div class="home-full-width">
+            <img class="dots" src="images/dots.png" alt="Dots" />
+            <a href="#contact" class="button home-button">CONTACT US</a>
+            <div class="home-full-width-background">
+              <img
+                class="logo-icon"
+                src="images/icon_logo.svg"
+                alt="CAE KANSAI Icon"
+              />
+            </div>
+          </div>
         </div>
 
-        <!--Load JavaScript-->
-        <script src="js/jquery.js"></script>			                                       
-        <script src="js/jquery.sticky.js"></script>			                                               
-        <script src='js/imagesloaded.pkgd.js'></script>                
-        <script src='js/jquery.fitvids.js'></script>                
-        <script src='js/jquery.smartmenus.min.js'></script>                                 
-        <script src='js/isotope.pkgd.js'></script>                                                 
-        <script src='js/owl.carousel.min.js'></script>                                                         
-        <script src='js/main.js'></script>
-    </body>
+        <!-- Services Section -->
+        <div id="services" class="section">
+          <div class="section-wrapper block content-1170 center-relative">
+            <div class="page-title-holder">
+              <p class="up-title-text">01</p>
+              <h2 class="entry-title">事業内容</h2>
+            </div>
+
+            <div class="content-wrapper">
+              <div class="one_third">
+                <div class="service-holder bottom-50">
+                  <p class="service-num">I</p>
+                  <div class="service-txt">
+                    <h4>PLC、モーションソフトの設計</h4>
+                    <p>
+                      対応メーカ―：三菱,キーエンス,オムロン、ロックウェル　etc.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="one_third">
+                <div class="service-holder bottom-50">
+                  <p class="service-num">II</p>
+                  <div class="service-txt">
+                    <h4>タッチパネルの画面設計</h4>
+                    <p>
+                      対応メーカ―：三菱,キーエンス,オムロン、ロックウェル　etc.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="one_third last">
+                <div class="service-holder bottom-50">
+                  <p class="service-num">III</p>
+                  <div class="service-txt">
+                    <h4>制御盤、配電盤の設計及び制作</h4>
+                    <p>
+                      設備や装置を動かす為の電気制御機器を収納するものを製作します。
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="clear"></div>
+
+              <div class="one_third">
+                <div class="service-holder">
+                  <p class="service-num">IV</p>
+                  <div class="service-txt">
+                    <h4>制御盤の改造及び更新工事</h4>
+                    <p>
+                      機能追加や廃番機種から現行機種への更新に伴う、制御盤内の工事をします。
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="one_third">
+                <div class="service-holder">
+                  <p class="service-num">V</p>
+                  <div class="service-txt">
+                    <h4>装置、設備の配線工事</h4>
+                    <p>
+                      設備のセンサーの取付け、安全機器の設置、モータケーブルの配線工事をします。
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="one_third last">
+                <div class="service-holder">
+                  <p class="service-num">VI</p>
+                  <div class="service-txt">
+                    <h4>試運転調整</h4>
+                    <p>
+                      国内外問わず現地工場でシステムの立上げをサポートします。
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="clear"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Portfolio Section -->
+        <div id="portfolio" class="section">
+          <div class="section-wrapper block content-1170 center-relative">
+            <div class="page-title-holder">
+              <p class="up-title-text">02</p>
+              <h2 class="entry-title">CAE関西とは</h2>
+            </div>
+
+            <div class="content-wrapper">
+              <div class="one_half">
+                <h3 class="medium-text">
+                  シーケンス制御の<br />プロフェッショナル
+                </h3>
+              </div>
+
+              <div class="one_half last">
+                <h5>顧客の思い、考え、提案、満足を想い</h5>
+                <p>
+                  入念な打合せ、設計開発を行い最適なシステムをご提供しています。
+                </p>
+                <p>
+                  私たちの制御システムは作って終わりではなく、現地工場での試運転調整やオペレーター教育まできめ細やかなサポートを行っています。
+                </p>
+                <p>
+                  制御システムは運用していくと動作や制御に改修が発生してくるので、
+                  アフターフォローも充実しています。
+                </p>
+              </div>
+              <div class="clear"></div>
+              <br />
+            </div>
+          </div>
+        </div>
+        <!-- About Section -->
+        <div id="about" class="section">
+          <div class="section-wrapper block content-1170 center-relative">
+            <div class="page-title-holder">
+              <p class="up-title-text">03</p>
+              <h2 class="entry-title">会社概要・沿革</h2>
+            </div>
+
+            <div class="content-wrapper">
+              <p>
+                <img src="images/about_image_01.svg" alt="" />
+              </p>
+              <br />
+              <h3 class="medium-text">
+                PLC・産業ロボット・IoTのようなFAシステムの必要性を感じ、FA社会の成長と共に成長してきました。
+              </h3>
+              <br />
+
+              <div class="one_half">
+                <p class="small-text"></p>
+                <p>
+                  「お客様に最高の満足度を提供する」という経営理念の下、<br />豊富な経験と最新システムの導入、向上に取り組んできました。
+                </p>
+                <br />
+                <p>
+                  少数精鋭だからできるフットワークの軽さと顧客ニーズに合せたきめ細かい対応を実現、着実に実績を積み上げていっています。<br />そして、⼤⼿企業様からにも頼られる存在になっています。
+                </p>
+                <br />
+                <div class="button-holder text-left">
+                  <a href="#contact" class="button">CONTACT US</a>
+                </div>
+              </div>
+
+              <div class="one_half last">
+                <ul class="timeline-holder">
+                  <li class="timeline-event">
+                    <span class="timeline-circle"></span>
+                    <div class="timeline-event-content">10月 会社設立</div>
+                    <div class="timeline-event-date">2001年</div>
+                  </li>
+                  <li class="timeline-event">
+                    <span class="timeline-circle"></span>
+                    <div class="timeline-event-content">9月 事務所移転</div>
+                    <div class="timeline-event-date">2009年</div>
+                  </li>
+                </ul>
+              </div>
+              <div class="clear"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pricing Section -->
+        <div id="pricing" class="section" style="color: #fff">
+          <div class="section-wrapper block content-1170 center-relative">
+            <div class="page-title-holder">
+              <p class="up-title-text">04</p>
+              <h2 class="entry-title">採用情報</h2>
+            </div>
+
+            <div class="content-wrapper">
+              <p>※現在募集中です！ お気軽にお電話、メール下さい！！</p>
+              <p>
+                経験者の方はスキルアップ、未経験者でも生涯を通じて身に付く技術を学べます
+              </p>
+              <br />
+              <h5>仕事の内容</h5>
+              <p>
+                機械設備を動かす為に必要なシーケンス回路、試運転、調整（能力や経験に応じて、業務をお任せします）
+              </p>
+              <ul>
+                <li>職種：FA装置の設計（PLC・シーケンサ）</li>
+                <li>
+                  内容：シーケンス制御を用いた装置の自動化設計（シーケンスソフト設計、ＴＰ画面設計、現地試運転、調整）
+                </li>
+                <li>勤務地：本社（姫路市）</li>
+                <li>雇用形態：正社員</li>
+                <li>必要な免許：普通運転免許（AT可）</li>
+                <li>勤務時間：8:30～17：30</li>
+                <li>
+                  給与：基本給200,000円+諸手当(交通費：実費支給（上限有）,残業、住宅手当、家族手当)
+                </li>
+                <li>賞与：原則年2回（夏、冬）</li>
+                <li>
+                  休日：完全週休二日（当社休日カレンダーによる）　■GW・夏季・年末年始
+                </li>
+                <li>
+                  加入保険等：健康、厚生、雇用、労災、退職金制度あり（勤続3年以上）
+                </li>
+              </ul>
+              <p>詳細はお問合せください。ご連絡お待ちしております</p>
+              <div class="clear"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div id="contact" class="section">
+          <div class="section-wrapper block content-1170 center-relative">
+            <div class="page-title-holder">
+              <p class="up-title-text">05</p>
+              <h2 class="entry-title">案件御見積 / 求人のお問い合わせ</h2>
+            </div>
+
+            <div class="content-wrapper">
+              <div class="one_fourth">
+                <p>お電話</p>
+              </div>
+
+              <div class="one_fourth">
+                <div class="info-code">
+                  <p class="info-code-title">会社名</p>
+                  <p class="info-code-content">
+                    <span>有限会社シーエーイー関西</span>
+                  </p>
+                </div>
+
+                <div class="info-code">
+                  <p class="info-code-title">所在地</p>
+                  <p class="info-code-content">
+                    <span>兵庫県姫路市飾磨区上野田4丁目265</span>
+                  </p>
+                </div>
+
+                <div class="info-code">
+                  <p class="info-code-title">TEL</p>
+                  <p class="info-code-content">
+                    <a href="tel:079-233-4657">079-233-4657</a>
+                  </p>
+                </div>
+
+                <div class="info-code">
+                  <p class="info-code-title">FAX</p>
+                  <p class="info-code-content">079-233-4691</p>
+                </div>
+              </div>
+
+              <div class="one_half last">
+                <div class="contact-form">
+                  <p>
+                    <input
+                      id="name"
+                      type="text"
+                      name="your-name"
+                      placeholder="NAME"
+                    />
+                  </p>
+                  <p>
+                    <input
+                      id="contact-email"
+                      type="email"
+                      name="your-email"
+                      placeholder="EMAIL"
+                    />
+                  </p>
+                  <p>
+                    <input
+                      id="subject"
+                      type="text"
+                      name="your-subject"
+                      placeholder="SUBJECT"
+                    />
+                  </p>
+                  <p>
+                    <textarea
+                      id="message"
+                      name="your-message"
+                      placeholder="MESSAGE"
+                    ></textarea>
+                  </p>
+                  <p class="contact-submit-holder">
+                    <input type="submit" value="SEND" />
+                  </p>
+                </div>
+              </div>
+              <div class="clear"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="footer-content center-relative">
+          <div class="footer-logo">
+            <img src="images/logo.png" alt="CAE KANSAI" />
+          </div>
+
+          <div class="footer-mail">
+            <a href="mailto:info@site.com">info@cae-kansai.co.jp</a>
+          </div>
+
+          <div class="footer-phone">
+            <ul>
+              <li>TEL: <a href="tel:0792334657">079-233-4657</a></li>
+              <li>FAX: 079-233-4691</li>
+            </ul>
+          </div>
+          <div class="copyright-holder">
+            <p><small>&copy; 2019 CAE KANASAI CO,Ltd</small></p>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!--Load JavaScript-->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/imagesloaded.pkgd.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/jquery.smartmenus.min.js"></script>
+    <script src="js/isotope.pkgd.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
