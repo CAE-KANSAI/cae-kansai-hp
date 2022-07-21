@@ -85,6 +85,44 @@ body pre {
   margin-bottom: 13px;
 }
 
+.about-image {
+  position: relative;
+  z-index: 99;
+  margin-top: 50px;
+  @media screen and (max-width: 1020px) {
+    max-width: 50%;
+  }
+  @media screen and (max-width: 600px) {
+    max-width: 100%;
+  }
+}
+
+.recruit-list {
+  @media screen and (max-width: 1020px) {
+    text-align: left;
+  }
+}
+
+.recruit-images {
+  list-style: none;
+  li {
+    max-width: 80%;
+    img {
+    }
+  }
+  @media screen and (max-width: 1020px) {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 0;
+    li {
+      max-width: 45%;
+      img {
+      }
+    }
+  }
+}
+
 .content-wrapper {
   li {
     font-family: $font-normal;
@@ -882,7 +920,7 @@ img.logo-icon {
 
 .service-txt {
   color: #fff;
-  max-width: 280px;
+  max-width: 100%;
 }
 
 .service-txt h4 {
@@ -2525,7 +2563,7 @@ body .social a:hover {
 
   .service-holder {
     text-align: center;
-    max-width: 300px;
+    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
   }
