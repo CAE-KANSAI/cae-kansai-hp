@@ -1,0 +1,25 @@
+{
+  "name": "cae",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "lint": "eslint src --ext .ts,.tsx,.js,.jsx",
+    "format": "prettier --write src/**/*.{ts,tsx,js,scss}"
+  },
+  "dependencies": {
+    "npm-check-updates": "^11.8.5",
+    "ress": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.9.1",
+    "autoprefixer": "^10.4.7",
+    "eslint": "^8.19.0",
+    "prettier": "^2.7.1",
+    "sass": "^1.53.0",
+    "typescript": "^4.7.4",
+    "vite": "^2.5.5"
+  }
+}
