@@ -619,14 +619,18 @@ a.button:hover {
 .header-logo {
   line-height: 0;
   font-size: 0;
-  top: 0;
   float: left;
   position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  a {
+    display: block;
+  }
 }
 
 .header-logo img {
-  width: calc(220px / 3);
-  height: calc(350px / 3);
+  width: calc(408px / 4);
+  height: calc(204px / 4);
 }
 
 .menu-holder {
@@ -2188,12 +2192,11 @@ footer ul {
 
 .footer-logo {
   position: relative;
-  margin-top: -140px;
 }
 
 .footer-logo img {
-  width: calc(220px / 3);
-  height: calc(350px / 3);
+  width: calc(408px / 3);
+  height: calc(204px / 3);
   margin-bottom: 70px;
 }
 
