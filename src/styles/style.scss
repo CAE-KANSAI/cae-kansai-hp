@@ -40,6 +40,7 @@ $primary-color: #72abcf;
 $secondary-color: #293c5c;
 $dark-gray: #293c5c;
 $black: #293c5c;
+$error: #e64f4f;
 $font-normal: fot-udkakugoc70-pro, sans-serif;
 $font-bold: fot-udkakugoc80-pro, sans-serif;
 $font-normal-mix: alternate-gothic-no-1-d, fot-udkakugoc70-pro, sans-serif;
@@ -1689,7 +1690,6 @@ ul.timeline-holder:before {
   width: 100%;
   line-height: 25px;
   color: $black;
-  margin-bottom: 35px;
   text-indent: 10px;
   background-color: transparent;
   border-bottom: 2px solid $primary-color;
@@ -1734,7 +1734,8 @@ ul.timeline-holder:before {
   margin-bottom: 25px;
 }
 
-.contact-form input[type='submit'] {
+.contact-form input[type='submit'],
+.contact-form button[type='submit'] {
   font-family: $font-normal;
   font-size: 30px;
   line-height: initial;
@@ -1754,9 +1755,32 @@ ul.timeline-holder:before {
   letter-spacing: 2px;
 }
 
-.contact-form input[type='submit']:hover {
+.contact-form input[type='submit']:hover,
+.contact-form button[type='submit']:hover {
   background-color: transparent;
   color: $primary-color;
+}
+
+.contact-form {
+  > div {
+    margin-bottom: 35px;
+  }
+  .check-privacy {
+    cursor: pointer;
+    margin: 30px auto;
+    &:hover {
+      color: $primary-color;
+    }
+  }
+  .is-error {
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff;
+    background: $error;
+  }
 }
 
 /* ===================================
