@@ -1,8 +1,8 @@
-# FDM
+# CAE関西
 
 [Vite](https://vitejs.dev/)
 
 ```
-npm install
-npm run dev
+yarn install
+yarn dev
 ```
