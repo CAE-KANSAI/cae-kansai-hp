@@ -10,6 +10,7 @@
     "format": "prettier --write src/**/*.{ts,tsx,js,scss}"
   },
   "dependencies": {
+    "dist": "^0.1.2",
     "npm-check-updates": "^11.8.5",
     "ress": "^4.0.0"
   },
