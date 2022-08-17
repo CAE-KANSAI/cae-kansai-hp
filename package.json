@@ -7,7 +7,8 @@
     "build": "vite build",
     "serve": "vite preview",
     "lint": "eslint src --ext .ts,.tsx,.js,.jsx",
-    "format": "prettier --write src/**/*.{ts,tsx,js,scss}"
+    "format": "prettier --write src/**/*.{ts,tsx,js,scss}",
+    "deploy": "yarn run build && git add -f dist && git commit -m'hosting'  && git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
     "dist": "^0.1.2",
