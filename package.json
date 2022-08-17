@@ -13,7 +13,7 @@
   "dependencies": {
     "dist": "^0.1.2",
     "got": "^12.3.1",
-    "npm-check-updates": "^11.8.5",
+    "npm-check-updates": "^16.0.5",
     "ress": "^4.0.0",
     "uglify": "^0.1.5"
   },
