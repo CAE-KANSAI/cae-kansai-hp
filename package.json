@@ -18,7 +18,7 @@
     "uglify": "^0.1.5"
   },
   "devDependencies": {
-    "@types/node": "^16.9.1",
+    "@types/node": "^16.11.49",
     "autoprefixer": "^10.4.7",
     "eslint": "^8.19.0",
     "prettier": "^2.7.1",
