@@ -3,7 +3,7 @@ import { defineConfig } from 'vite';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/cae-kansai-hp/', // 一旦githubに上げるためbase pathを設定
+  base: '/',
   root: './src',
   build: {
     outDir: '../dist',
